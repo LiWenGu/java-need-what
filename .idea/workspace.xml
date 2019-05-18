@@ -4,22 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6d53697-8d18-4471-bd4d-09cb4686bf1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/ResultItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/downloader/CustomRedirectStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-core/src/main/java/us/codecraft/webmagic/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-core/src/test/java/us/codecraft/webmagic/ResultItemsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-extension/src/main/java/us/codecraft/webmagic/scheduler/BloomFilterDuplicateRemover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-extension/src/main/java/us/codecraft/webmagic/scheduler/FileCacheQueueScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-extension/src/test/java/us/codecraft/webmagic/processor/GithubRepoProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/model/samples/IteyeBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/model/samples/OschinaAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/model/samples/OschinaBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/F58PageProcesser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/HuxiuProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmagic/webmagic-samples/src/main/java/us/codecraft/webmagic/samples/TianyaPageProcesser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="e6d53697-8d18-4471-bd4d-09cb4686bf1e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/webmagic-boss/target/" />
     <ignored path="$PROJECT_DIR$/api/target/" />
     <ignored path="$PROJECT_DIR$/webmagic/webmagic-scripts/target/" />
@@ -55,15 +40,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/resources/schema.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="8" selection-end-line="8" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webmagic/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -79,7 +55,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webmagic-spring-boot-starter/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -100,12 +80,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="365">
-                <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+                <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -114,16 +94,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/liwenguang/api/webmagic/BossMainProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="3" selection-start-column="3" selection-end-column="3" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -140,13 +133,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webmagic/.travis.yml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webmagic/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2401" />
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -205,6 +191,7 @@
         <option value="$PROJECT_DIR$/webmagic/README.md" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -289,6 +276,59 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-need-what" type="462c0819:PsiDirectoryNode" />
+              <item name="webmagic-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-need-what" type="b2602c69:ProjectViewProjectNode" />
@@ -424,7 +464,7 @@
       <workItem from="1558199747615" duration="1885000" />
       <workItem from="1558201640031" duration="114000" />
       <workItem from="1558201756248" duration="122000" />
-      <workItem from="1558201880390" duration="1545000" />
+      <workItem from="1558201880390" duration="1819000" />
     </task>
     <task id="LOCAL-00001" summary="自己维护 webmagic，获取数据，写入h2，读取数据接口完成">
       <created>1558203009220</created>
@@ -447,16 +487,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558203351459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="自己维护 webmagic，获取数据，写入h2，读取数据接口完成">
+      <created>1558203609352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558203609352</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10067000" />
+    <option name="totallyTimeSpent" value="10341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="23" width="1831" height="1092" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17551705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17551705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -470,10 +517,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32958034" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4997205" visible="true" weight="0.32958034" />
       <window_info anchor="bottom" id="Docker" order="9" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32958034" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002795" side_tool="true" visible="true" weight="0.32958034" />
       <window_info anchor="bottom" id="Statistic" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
@@ -510,10 +557,6 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webmagic-spring-boot-starter/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/liwenguang/api/webmagic/util/Map2JobDescMapperImpl.java" />
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/liwenguang/api/webmagic/util/MappingUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -785,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/liwenguang/api/webmagic/BossMainProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webmagic-spring-boot-starter/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -827,9 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2401" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webmagic-spring-boot-starter/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/webmagic/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -871,11 +904,39 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="365">
-            <caret line="69" column="19" lean-forward="true" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+            <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webmagic-spring-boot-starter/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/liwenguang/api/webmagic/BossMainProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
         </state>
       </provider>
     </entry>
