@@ -1,6 +1,6 @@
 package com.liwenguang.api.repository;
 
-import com.liwenguang.api.dao.User;
+import com.liwenguang.api.dao.JobDesc;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
@@ -9,6 +9,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
  * @Date 2019-05-18 01:07
  * @Description
  */
-@RepositoryRestResource(collectionResourceRel = "user", path = "user")
-public interface UserRepository extends JpaRepository<User, Long> {
+@RepositoryRestResource(collectionResourceRel = "jobDesc", path = "jobDesc")
+public interface JobDescRepository extends JpaRepository<JobDesc, Long> {
 }

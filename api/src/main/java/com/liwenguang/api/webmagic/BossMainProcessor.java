@@ -1,29 +1,34 @@
-package com.liwenguang.webmagic;
+package com.liwenguang.api.webmagic;
 
-import com.liwenguang.webmagic.pipeline.H2Pipeline;
+import lombok.extern.slf4j.Slf4j;
 import us.codecraft.webmagic.Page;
+import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.Site;
-import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.processor.PageProcessor;
+
+import static com.liwenguang.api.webmagic.util.Constants.*;
 
 /**
  * @Author liwenguang
  * @Date 2019-05-18 11:01
  * @Description
  */
-public class SinaBlogProcessor implements PageProcessor {
-
-    public static final String URL_LIST = "https://www\\.zhipin\\.com/c101020100/e_105/\\?query=java&page=\\d+";
-
-    public static final String URL_POST = "https://www\\.zhipin\\.com/job_detail/\\S+\\.html";
+@Slf4j
+public class BossMainProcessor implements PageProcessor {
 
     private Site site = Site
             .me()
-            .setDomain("www.zhipin.com")
-            .setSleepTime(3000)
-            .setUserAgent(
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36");
+            .setDomain(DOMAIN)
+            .setSleepTime(10000)
+            .setUserAgent("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36");
 
+    @Override
+    public boolean needProcess(Request request) {
+        log.info(request.getUrl());
+        return true;
+    }
+
+    @Override
     public void process(Page page) {
         //列表页
         if (page.getUrl().regex(URL_LIST).match()) {
@@ -38,14 +43,9 @@ public class SinaBlogProcessor implements PageProcessor {
         }
     }
 
+    @Override
     public Site getSite() {
         return site;
-    }
-
-    public static void main(String[] args) {
-        Spider.create(new SinaBlogProcessor()).addUrl("https://www.zhipin.com/c101020100/e_105/?query=java&page=1")
-                .addPipeline(new H2Pipeline())
-                .run();
     }
 
 }

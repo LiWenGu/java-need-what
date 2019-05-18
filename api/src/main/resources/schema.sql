@@ -1,8 +1,9 @@
-DROP TABLE IF EXISTS `t_user`;
-
-CREATE TABLE `t_user` (
+CREATE TABLE IF NOT EXISTS `job_desc` (
   `id` int(20) NOT NULL AUTO_INCREMENT,
-  `name` varchar(50) NOT NULL,
-  `url` varchar(50) NOT NULL,
+  `title` varchar (128) NOT NULL,
+  `salary` varchar(16) NOT NULL,
+  `city` varchar(128) NOT NULL,
+  `require` varchar(2048)NOT NULL,
+  `source` varchar(128) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

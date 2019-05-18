@@ -1,6 +1,7 @@
-package com.liwenguang.webmagic.util;
+package com.liwenguang.api.webmagic.util;
 
 import org.mapstruct.Qualifier;
+import us.codecraft.webmagic.selector.HtmlNode;
 import us.codecraft.webmagic.selector.PlainText;
 
 import java.lang.annotation.ElementType;
@@ -31,7 +32,19 @@ public class MappingUtil {
     @Qualifier
     @Target(ElementType.METHOD)
     @Retention(RetentionPolicy.SOURCE)
+    @interface City {
+    }
+
+    @Qualifier
+    @Target(ElementType.METHOD)
+    @Retention(RetentionPolicy.SOURCE)
     @interface Require {
+    }
+
+    @Qualifier
+    @Target(ElementType.METHOD)
+    @Retention(RetentionPolicy.SOURCE)
+    @interface Source {
     }
 
     @Title
@@ -44,8 +57,18 @@ public class MappingUtil {
         return ((PlainText) in.get("salary")).get();
     }
 
+    @City
+    public String city(Map<String, Object> in) {
+        return ((HtmlNode) in.get("city")).get();
+    }
+
     @Require
     public String require(Map<String, Object> in) {
         return ((PlainText) in.get("require")).get();
+    }
+
+    @Source
+    public String source(Map<String, Object> in) {
+        return (String) in.get("source");
     }
 }
