@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/api/demo.iml" filepath="$PROJECT_DIR$/api/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webmagic-spring-boot-starter/webmagic-spring-boot-starter.iml" filepath="$PROJECT_DIR$/webmagic-spring-boot-starter/webmagic-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-need-what.iml" filepath="$PROJECT_DIR$/.idea/java-need-what.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-core/webmagic-core.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-core/webmagic-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-extension/webmagic-extension.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-extension/webmagic-extension.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-parent.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-samples/webmagic-samples.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-samples/webmagic-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-saxon/webmagic-saxon.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-saxon/webmagic-saxon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-scripts/webmagic-scripts.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-scripts/webmagic-scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmagic/webmagic-selenium/webmagic-selenium.iml" filepath="$PROJECT_DIR$/webmagic/webmagic-selenium/webmagic-selenium.iml" />
     </modules>
   </component>
 </project>
