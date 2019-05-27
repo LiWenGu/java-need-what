@@ -27,12 +27,12 @@ public class H2Pipeline implements Pipeline {
     @Autowired
     private JobDescRepository userRepository;
 
-    private final static Pattern pattern = Pattern.compile(URL_POST);
+    private final static Pattern PATTERN = Pattern.compile(URL_POST);
 
     @Override
     public void process(ResultItems resultItems, Task task) {
         String sourceUrl = resultItems.getRequest().getUrl();
-        if (pattern.matcher(sourceUrl).find()) {
+        if (PATTERN.matcher(sourceUrl).find()) {
             JobDesc jobDesc = Map2JobDescMapper.MAPPER.getJobDesc(new MapSource(resultItems.getAll(), sourceUrl));
             log.info(jobDesc.toString());
             try {

@@ -27,6 +27,6 @@ public class ApiApplication {
 
     @Autowired
     public void setH2Pipeline(H2Pipeline h2Pipeline) {
-        this.h2Pipeline = h2Pipeline;
+        ApiApplication.h2Pipeline = h2Pipeline;
     }
 }
