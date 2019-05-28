@@ -17,7 +17,7 @@ public class ApiApplication {
     }
 
     private static void startBoss() {
-        Spider.create(new BossMainProcessor()).addUrl("https://www.zhipin.com/c101020100/e_105/?query=java&page=0")
+        Spider.create(bossMainProcessor).addUrl("https://www.zhipin.com/c101020100/e_105/?query=java&page=0")
                 .thread(ThreadPoolUtil.get("webmagic-boss"), ThreadPoolUtil.THREAD_NUMBER)
                 .addPipeline(h2Pipeline)
                 .start();
@@ -28,5 +28,13 @@ public class ApiApplication {
     @Autowired
     public void setH2Pipeline(H2Pipeline h2Pipeline) {
         ApiApplication.h2Pipeline = h2Pipeline;
+    }
+
+    @Autowired
+    private static BossMainProcessor bossMainProcessor;
+
+    @Autowired
+    public void setBossMainProcessor(BossMainProcessor bossMainProcessor) {
+        ApiApplication.bossMainProcessor = bossMainProcessor;
     }
 }

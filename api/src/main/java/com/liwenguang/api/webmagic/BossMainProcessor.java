@@ -1,6 +1,9 @@
 package com.liwenguang.api.webmagic;
 
+import com.liwenguang.api.repository.JobDescRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Request;
 import us.codecraft.webmagic.Site;
@@ -14,7 +17,11 @@ import static com.liwenguang.api.webmagic.util.Constants.*;
  * @Description
  */
 @Slf4j
+@Component
 public class BossMainProcessor implements PageProcessor {
+
+    @Autowired
+    private JobDescRepository jobDescRepository;
 
     private Site site = Site
             .me()
@@ -24,8 +31,7 @@ public class BossMainProcessor implements PageProcessor {
 
     @Override
     public boolean needProcess(Request request) {
-        log.info(request.getUrl());
-        return true;
+        return !jobDescRepository.findTop1BySource(request.getUrl()).isPresent();
     }
 
     @Override
